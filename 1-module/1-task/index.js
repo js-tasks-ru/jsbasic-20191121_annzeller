@@ -5,5 +5,6 @@
  * @returns {number}
  */
 function pow(m, n) {
-
+    return m **= n;
 }
+
