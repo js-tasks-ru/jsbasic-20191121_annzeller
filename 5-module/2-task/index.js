@@ -65,4 +65,4 @@ function SortableTable(items) {
       tbody.append(...trs);
     }
   };
-};
+}
