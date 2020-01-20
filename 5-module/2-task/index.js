@@ -1,4 +1,5 @@
 function SortableTable(items) {
+
   this.el = document.createElement('table');
   this.el.classList.add('table');
 
@@ -64,4 +65,4 @@ function SortableTable(items) {
       tbody.append(...trs);
     }
   };
-}
+};
